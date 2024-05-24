@@ -89,4 +89,4 @@ Atualizações regulares de conteúdo e refinamento do design conforme necessár
 
 🔓 <b>Licença</b>
 
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo [LICENSE](../../LICENSE) para obter mais detalhes.
