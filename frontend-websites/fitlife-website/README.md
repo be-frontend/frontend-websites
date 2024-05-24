@@ -1,12 +1,12 @@
 <div align="center">
 
-Veja o projeto <a href="https://fitlifewebsite.netlify.app/">Barber Barbearia</a>
+Veja o projeto <a href="https://fitlifewebsite.netlify.app/">Fitlife</a>
 
 <p>Este template oferece uma estrutura completa para um website de clube de fitness, desde a seção inicial até informações sobre classes, blog e contato. Ele é ideal para academias e clubes de fitness que desejam ter uma presença online profissional e atrativa.
 </p>
 </div>
 
-![preview](https://github.com/be-frontend/frontend-websites/assets/110783805/ab794949-eca9-49da-a069-c0b416dbe253)
+![preview-fitlife](https://github.com/be-frontend/frontend-websites/assets/110783805/128ca51f-c7e3-4bfa-9555-12bef9920b10)
 
 👨🏼‍💻 Tecnologias utilizadas para o projeto:
 
