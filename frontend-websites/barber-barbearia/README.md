@@ -6,7 +6,7 @@ Veja o projeto <a href="https://barberarbearia.netlify.app/">Barber Barbearia</a
 </p>
 </div>
 
-![alt text](preview.jpg)
+![preview](https://github.com/be-frontend/frontend-websites/assets/110783805/2df76c6f-30cb-4c1f-9475-8f75007ee01c)
 
 👨🏼‍💻 Tecnologias utilizadas para o projeto:
 
