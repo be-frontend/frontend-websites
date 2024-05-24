@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber - Barbeiros e Corte de Cabelo</title>
+  <meta name="title" content="Barber - Barbeiros & Corte de Cabelo">
+  <meta name="description" content="Este é um template HTML de barbearia feito por codewithsadee">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body id="top">
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <ul class="header-top-list">
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+            <p class="item-title">Ligue para nós :</p>
+            <a href="tel:01234567895" class="item-link">012 (345) 67 895</a>
+          </li>
+
+          <li class="header-top-item">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+            <p class="item-title">Horário de Abertura :</p>
+            <p class="item-text">Domingo - Sexta, 08h - 21h</p>
+          </li>
+
+          <li>
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          Barber
+          <span class="span">Salão de Beleza</span>
+        </a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Início</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Serviços</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#pricing" class="navbar-link" data-nav-link>Preços</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#gallery" class="navbar-link" data-nav-link>Galeria</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#appointment" class="navbar-link" data-nav-link>Agendamento</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Contato</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="btn has-before">
+          <span class="span">Agendamento</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="section hero has-before has-bg-image" id="home" aria-label="início"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+          <h1 class="h1 hero-title">Barbeiros & Corte de Cabelo</h1>
+          <p class="hero-text">
+            Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            suspendisse
+            ultrices gravida
+          </p>
+
+          <a href="#" class="btn has-before">
+            <span class="span">Explore Nossos Serviços</span>
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </section>
+
+      <section class="section service" id="services" aria-label="serviços">
+        <div class="container">
+          <h2 class="h2 section-title text-center">Serviços que Oferecemos</h2>
+          <p class="section-text text-center">
+            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+          </p>
+
+          <ul class="grid-list">
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <i class="flaticon-salon"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Corte de Cabelo</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="card-btn" aria-label="mais">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <i class="flaticon-shampoo"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Lavagem de Cabelo</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="mais">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <i class="flaticon-hot-stone"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Tratamentos Corporais</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="mais">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-treatment"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Beleza & Spa</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="mais">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <i class="flaticon-shaving-razor"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Barba Estilosa</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="mais">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-makeup"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Maquiagem</a>
+                </h3>
+
+                <p class="card-text">
+                  Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="mais">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section pricing" id="pricing" aria-label="preços">
+        <div class="container">
+          <h2 class="h2 section-title text-center">Escolha seu Pacote</h2>
+          <p class="section-text text-center">
+            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+          </p>
+
+          <ul class="grid-list">
+            <li>
+              <div class="pricing-card">
+                <h3 class="card-title">Corte de Cabelo</h3>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Lavagem & Corte</span>
+                  </li>
+
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Xampu & Condicionador</span>
+                  </li>
+
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Finalização</span>
+                  </li>
+                </ul>
+
+                <strong class="card-price">$20.00</strong>
+                <a href="#" class="btn has-before">
+                  <span class="span">Agendar Agora</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card best-pricing">
+                <h3 class="card-title">Barba Estilosa</h3>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Design de Barba</span>
+                  </li>
+
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Tratamento de Barba</span>
+                  </li>
+
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Xampu & Condicionador</span>
+                  </li>
+                </ul>
+
+                <strong class="card-price">$15.00</strong>
+                <a href="#" class="btn has-before">
+                  <span class="span">Agendar Agora</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+                <div class="has-before"></div>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <h3 class="card-title">Lavagem de Cabelo</h3>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Xampu</span>
+                  </li>
+
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Condicionador</span>
+                  </li>
+
+                  <li class="card-item">
+                    <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">Finalização</span>
+                  </li>
+                </ul>
+
+                <strong class="card-price">$10.00</strong>
+                <a href="#" class="btn has-before">
+                  <span class="span">Agendar Agora</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery" aria-label="galeria">
+        <div class="container">
+          <h2 class="h2 section-title text-center">Galeria de Nossos Trabalhos</h2>
+          <p class="section-text text-center">
+            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+          </p>
+          <ul class="grid-list">
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 285; --height: 450;">
+                  <img src="./assets/images/gallery-1.jpg" width="285" height="450" loading="lazy" alt="Barba Estilosa"
+                    class="img-cover">
+                </figure>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Barba Estilosa</a>
+                </h3>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 285; --height: 450;">
+                  <img src="./assets/images/gallery-2.jpg" width="285" height="450" loading="lazy" alt="Corte de Cabelo"
+                    class="img-cover">
+                </figure>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Corte de Cabelo</a>
+                </h3>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 285; --height: 450;">
+                  <img src="./assets/images/gallery-3.jpg" width="285" height="450" loading="lazy"
+                    alt="Tratamentos Corporais" class="img-cover">
+                </figure>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Tratamentos Corporais</a>
+                </h3>
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder" style="--width: 285; --height: 450;">
+                  <img src="./assets/images/gallery-4.jpg" width="285" height="450" loading="lazy" alt="Beleza & Spa"
+                    class="img-cover">
+                </figure>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Beleza & Spa</a>
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section cta" aria-label="call to action">
+        <div class="container">
+          <h2 class="h2 section-title">Agende seu Corte de Cabelo Agora!</h2>
+          <p class="section-text">
+            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            suspendisse
+          </p>
+
+          <a href="#" class="btn has-before">
+            <span class="span">Agendar Agora</span>
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            Barber
+            <span class="span">Salão de Beleza</span>
+          </a>
+
+          <p class="footer-text">
+            Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-link-box">
+          <ul class="footer-list">
+            <li>
+              <p class="footer-link-title">Explorar & Acessar</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sobre Nós</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Serviços</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Planos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Galeria</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contato</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-link-title">Serviços</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Lavagem de Cabelo</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Corte de Cabelo</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Corte e Barba</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Tratamento de Barba</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Estilo de Barba</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-link-title">Informações</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Termos & Condições</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Política de Privacidade</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-link-title">Contato</p>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+                São Paulo, Brasil
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <a href="mailto:example@gmail.com" class="contact-link">example@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 Todos os direitos reservados by <a href="#">Salão de Beleza</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons/esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+</body>
+
+</html>
