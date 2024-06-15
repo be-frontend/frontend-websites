@@ -1,6 +1,6 @@
 <div align="center">
 
-Veja o projeto <a href="https://barberarbearia.netlify.app/">Barber Barbearia</a>
+Veja o projeto <a href="https://barberbarbearia.netlify.app/">Barber Barbearia</a>
 
 <p>Este template oferece uma estrutura completa para um website de barbearia, desde a seção de serviços até a galeria de trabalhos realizados. Ele é ideal para barbearias que desejam ter uma presença online profissional e atrativa.
 </p>
